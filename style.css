@@ -1,0 +1,274 @@
+section{
+  min-height: 40vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.navbar{
+min-height: 90xp;
+z-index: 3;
+box-shadow: 0 8px 6px -6px black;
+
+}
+
+#navbar-brand{
+  color: goldenrod;
+}
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#hero-section {
+  /* This should be an image. */
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.25)), url(Images/BCA\ I\ Full\ Art.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 75vh;
+  text-shadow: 1px 1px 2px black;
+
+  /* Change this values to work for you. */
+  padding: clamp(100px, 20vh, 200px) 0;
+}
+
+#library-hero-section {
+background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.25)), url(Images/BCA\ I\ Full\ Art.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 20vh;
+  text-shadow: 1px 1px 2px black;
+
+  /* Change this values to work for you. */
+  padding: clamp(50px, 20vh, 20px) 0;
+}
+
+.btn{
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#book-section {
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.25)), url(Images/con-bg6.png);
+  background-size: cover;
+}
+
+.summary{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#profile-img {
+   /* Change this values to work for you. */
+  margin: clamp(1px, 20vh, 100px) auto;
+
+  /* This should be an image */
+  background-position: center;
+  background-color: transparent;
+  background-size: cover;
+  transition-duration: .3s;
+
+  /* Change this values to work for you. */
+  height: clamp(300px, 20vh, 250px);
+
+  /* Change this values to work for you. */
+  width: clamp(300px, 20vh, 250px);
+  /border-radius: 50%;
+  //border: goldenrod 30px solid;
+} 
+
+.container{
+  opacity: .94;
+
+}
+.art-img{
+ background-size: cover;
+
+}
+
+#book-img{
+  height: clamp(350px, 20vh, 350px);
+  
+  
+
+  /* Change this values to work for you. */
+  width: clamp(250px, 20vh, 250px);
+}
+
+
+  .container-bio {
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 75vh;
+  text-shadow: 1px 1px 2px black;
+
+}
+
+/*SIZZLE*/
+#about .container{
+ background-image: (rgba(0,0,0,.1), rgba(0,0,0,.25)), url(Images/BCA\ I\ Full\ Art.jpg);
+}
+#bio-section img{
+border-radius: 50%;
+}
+
+
+#hero-section h2 {
+  /* How to center text? */
+  text-align: center; 
+  /* Add responsive vertical margins via clamp? */
+}
+
+.art-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.art-container img {
+  width: 100%;
+  height: auto;
+  position: center;
+}
+
+.art-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.art-container .btn:hover {
+  background-color: black;
+}
+
+/* Fonts */
+
+p, h1, h2, h3, h4, a, footer{
+  font-family: Sedan SC;
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+  color: #555555;
+  font-size: medium;
+}
+
+
+#carousel{
+  width: 600px; /* Or a specific width in pixels, e.g., 640px */
+      height: 350px; /* Or a specific height in pixels, e.g., 360px */
+      opacity: 1;
+      align-self: center;
+}
+
+ .carousel-inner {
+      
+    }
+
+
+
+.footer-copyright{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/*Community Page*/
+
+
+
+#contact-section{
+
+  font-size: clamp(10rem, 10vw, 20rem);
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.25)), url(Images/BCAbgnew.png);
+  background-size: stretch;
+  background-position: center;
+}
+
+#contact-section h2, h3{
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+#contact-section ul, p, a{
+  font-size: 20px;
+  color: goldenrod;
+  text-align: left;
+}
+#contact-section p, a{
+  font-size: 20px;
+  color: goldenrod;
+  text-align: left;
+}
+#contact-section .email{
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+#contact-section ul, p, a:hover{
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+/*-----Icon Styling-----*/
+
+.bi-envelope{
+  font-size:75px;
+  color: goldenrod;
+}
+.bi-discord{
+  font-size:75px;
+  color: goldenrod;
+}
+.bi-linkedin{
+  font-size:75px;
+  color: goldenrod;
+}
+
+.bi-instagram{
+  font-size:75px;
+  color: goldenrod;
+}
+
+.bi-facebook{
+  font-size:75px;
+  color: goldenrod;
+}
+
+.bi-envelope:hover{
+  color: #FBF7F0;
+}
+
+.bi-discord:hover{
+  color: #FBF7F0;
+}
+
+.bi-linkedin:hover{
+  color: #FBF7F0;
+}
+
+.bi-instagram:hover{
+  color: #FBF7F0;}
+
+.bi-facebook:hover{
+  color: #FBF7F0;
+}
+
+
